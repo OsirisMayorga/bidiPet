@@ -1,7 +1,7 @@
 .splash{
-	width: 100vw;
+	/*width: 100vw;*/	
+	background-image:url(../img/splash.png)!important;
 	height: 100vh;
-	background: linear-gradient(11.99deg, #FF8008 16.26%, #FFD8B3 48.89%, #FFFFFF 76.42%);
 	
 }
 .logo{
@@ -19,6 +19,11 @@
 	width: 100vw;
 	height: 100vh;
 	background:#FFFFFF;
+}
+
+.bglogin{
+	background-image:url(../img/bglogin.png)!important;
+	height: 100vh;
 }
 
 .register img{
@@ -75,4 +80,58 @@
 	text-transform: none;
 	letter-spacing: -0.0041em;
 	color: #F6F7FA;
+}
+
+/*MASCOTAS*/
+
+.bgmascotas{
+	background-image:url(../img/bgmascotas.png)!important;
+	height: 100vh;
+}
+
+.mascotas h1{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	text-align: center;
+	text-transform: none;
+	letter-spacing: -0.0041em;
+	margin-top: 15px;
+	color: #323935;
+  margin-left: -96px;
+
+}
+
+.icon{
+	font-size: 43px !important;
+  color: #FB724C;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.mascotas img{
+	margin-left: 33px;
+  margin-top: 10px;
+}
+
+.mascotas i{
+	font-size: 43px !important;
+  color: #FB724C;
+  margin-left: 40px;
+}
+
+.mascotas button{
+	background: none;
+  border: none;
+  padding: 0px;
+
+}
+
+.mismascotas img{
+	filter: brightness(0.8);
+	border-radius: 8px;
+	margin-left: 17px;
+	margin-top: 23px;
+
 }

@@ -52,7 +52,7 @@
               
           </div>
 
-          <div v-if="steep == 2" class="bgWhite">
+          <div v-if="steep == 2" class="bglogin">
             <div class="register">
               <img src="img/BidiPetlogo.png">
               <p>Registrate</p>
@@ -73,7 +73,7 @@
                 <a style="color:#323935">Ingresar con Google</a>
               </button>
               <p style="font-size: 12px;font-weight: bold !important;text-align: center;">¿Ya tienes cuenta?</p>
-              <a style="font-size: 12px; font-weight: bold !important; text-align: center; color: #fc774c;">Inicia Sesión</a>
+              <a @click="steep = 3" style="font-size: 12px; font-weight: bold !important; text-align: center; color: #fc774c;margin-left: 150px;">Inicia Sesión</a>
 
 
             </div>
@@ -83,7 +83,7 @@
               
           </div>
 
-          <div v-if="steep == 3" class="bgWhite">
+          <div v-if="steep == 3" class="bglogin">
             <div class="register">
               <img src="img/BidiPetlogo.png">
               <p>Inicia Sesión</p>
@@ -91,7 +91,7 @@
               <input type="email" id="correo">
               <label for="pass">Password:</label>
               <input type="password" id="pass">
-              <button style="background: linear-gradient(271.15deg, #FE904B 7.64%, #FB724C 90.68%);">
+              <button @click="steep = 4"  style="background: linear-gradient(271.15deg, #FE904B 7.64%, #FB724C 90.68%);">
                 <a>Iniciar</a>
               </button>
               <p style="font-size: 26px;font-weight: 400!important;">ó</p>
@@ -105,11 +105,41 @@
 
 
             </div>
+
             
             
             <!-- <button @click="steep = 2">GO!</button> -->
               
           </div>
+
+          <div v-if="steep == 4" class="bgmascotas">
+            <i class="fas fa-bars icon"></i>
+            <div class="mascotas">
+              <h1>Mis mascotas </h1>
+              <button>
+                <img src="img/Perro.png">
+              </button>
+              <button>
+                <img style="margin-left: 10px;" src="img/Gato.png">  
+              </button>
+              <span> 
+                <button><i class="fas fa-qrcode"></i></button>
+                <button><i class="fas fa-plus-circle" style="margin-left: 10px;"></i></button>
+              </span>
+
+              <div class="mismascotas">
+                <img src="img/card1.png">
+                <img src="img/card2.png">
+                
+              </div>
+
+
+            </div>
+              
+
+
+
+            </div>
 
 
 
