@@ -10,8 +10,8 @@
     margin-top: 210px;
 }
 .perros{
-	width: 103vw;
-  margin-left: -15px;
+	width: 110vw;
+  margin-left: -18px;
   margin-top: 299px
 }
 
@@ -36,5 +36,43 @@
 	text-transform: none;
 	letter-spacing: -0.0041em;
 	margin-top: 15px;
+	color: #323935;
 
+}
+.register label{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	text-transform: none;
+	letter-spacing: -0.0041em;
+	color: #AEAEB2;
+	margin-left: 47px;
+	margin-top: 10px;
+}
+
+.register input{
+	background: #FFFFFF;
+	border: 1px solid #FE904B;
+	border-radius: 14px;
+	margin-left: 30px;
+  width: 85vw;
+  padding: 10px;
+}
+.register button{
+	border-radius: 14px;
+	border-color: #ffffffbf;
+	margin-left: 30px;
+  width: 85vw;
+  padding: 10px;
+  margin-top: 40px;
+}
+.register a{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	text-transform: none;
+	letter-spacing: -0.0041em;
+	color: #F6F7FA;
 }

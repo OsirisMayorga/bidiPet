@@ -42,7 +42,7 @@
     </head>
     <body>
 
-        <div id="pets">
+        <div id="pets" style="overflow-x: hidden;">
 
           <!-- S1 LOGO-Ini -->
           <div v-if="steep == 1" class="splash">
@@ -56,6 +56,54 @@
             <div class="register">
               <img src="img/BidiPetlogo.png">
               <p>Registrate</p>
+              <label for="name">Nombre:</label>
+              <input type="text" id="name">
+              <label for="correo">E-mail:</label>
+              <input type="email" id="correo">
+              <label for="pass">Password:</label>
+              <input type="password" id="pass">
+              <button style="background: linear-gradient(271.15deg, #FE904B 7.64%, #FB724C 90.68%);" @click="steep = 3">
+                <a>Registrarme</a>
+              </button>
+              <p style="font-size: 26px;font-weight: 400!important;">ó</p>
+              <button style="background: #3B5998;margin-top: 5px!important;">
+                <a>Ingresar con Facebook</a>
+              </button>
+              <button style="background: #ffffffbf;margin-top: 10px;border-color: #dcdcdcf2!important;">
+                <a style="color:#323935">Ingresar con Google</a>
+              </button>
+              <p style="font-size: 12px;font-weight: bold !important;text-align: center;">¿Ya tienes cuenta?</p>
+              <a style="font-size: 12px; font-weight: bold !important; text-align: center; color: #fc774c;margin-left: 150px;">Inicia Sesión</a>
+
+
+            </div>
+            
+            
+            <!-- <button @click="steep = 2">GO!</button> -->
+              
+          </div>
+
+          <div v-if="steep == 3" class="bgWhite">
+            <div class="register">
+              <img src="img/BidiPetlogo.png">
+              <p>Inicia Sesión</p>
+              <label for="correo">E-mail:</label>
+              <input type="email" id="correo">
+              <label for="pass">Password:</label>
+              <input type="password" id="pass">
+              <button style="background: linear-gradient(271.15deg, #FE904B 7.64%, #FB724C 90.68%);">
+                <a>Iniciar</a>
+              </button>
+              <p style="font-size: 26px;font-weight: 400!important;">ó</p>
+              <button style="background: #3B5998;margin-top: 5px!important;">
+                <a>Iniciar con Facebook</a>
+              </button>
+              <button style="background: #ffffffbf;margin-top: 10px;border-color: #dcdcdcf2!important;">
+                <a style="color:#323935">Iniciar con Google</a>
+              </button>
+
+
+
             </div>
             
             
