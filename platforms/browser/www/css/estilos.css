@@ -1,0 +1,39 @@
+.splash{
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(11.99deg, #FF8008 16.26%, #FFD8B3 48.89%, #FFFFFF 76.42%);
+	
+}
+.logo{
+    width: 94vw;
+    margin-left: 3px;
+    margin-top: 210px;
+}
+.perros{
+	width: 103vw;
+  margin-left: -15px;
+  margin-top: 299px
+}
+
+.bgWhite{
+	width: 100vw;
+	height: 100vh;
+	background:#FFFFFF;
+}
+
+.register img{
+	width: 80vw;
+  margin-left: 20px;
+  margin-top: 63px;
+}
+
+.register p{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	text-align: center;
+	text-transform: none;
+	letter-spacing: -0.0041em;
+
+}
